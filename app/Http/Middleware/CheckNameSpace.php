@@ -20,7 +20,6 @@ class CheckNameSpace
 
 
         if(strlen($userAge) <= 3){
-
             return $next($request);
         }else{
             return redirect('/404');

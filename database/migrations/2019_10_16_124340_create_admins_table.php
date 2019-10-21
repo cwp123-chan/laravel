@@ -17,6 +17,7 @@ class CreateAdminsTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('password');
+            $table->string('api_token');
             $table->timestamps();
         });
     }

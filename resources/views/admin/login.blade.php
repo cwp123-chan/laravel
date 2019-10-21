@@ -174,6 +174,7 @@
             },
             //请求失败，包含具体的错误信息
             error : function(e){
+                alert('登陆失败');
                 // console.log(e);
                 // console.log(e.responseText);
 

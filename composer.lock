@@ -4,8 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "654310b31e461cf4a57557d3491aacca",
+    "content-hash": "3351216fbdf7e15b71b653355fcfc26c",
     "packages": [
+        {
+            "name": "baijunyao/laravel-print",
+            "version": "v3.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/baijunyao/laravel-print.git",
+                "reference": "c2a8e0473634e6a19637d6ebc6c06b022ef62eaa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/baijunyao/laravel-print/zipball/c2a8e0473634e6a19637d6ebc6c06b022ef62eaa",
+                "reference": "c2a8e0473634e6a19637d6ebc6c06b022ef62eaa",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Baijunyao\\LaravelPrint\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "baijunyao",
+                    "email": "baijunyao@baijunyao.com"
+                }
+            ],
+            "description": "laravel print",
+            "keywords": [
+                "dump",
+                "laravel",
+                "print"
+            ],
+            "time": "2018-09-28T04:31:50+00:00"
+        },
         {
             "name": "barryvdh/laravel-debugbar",
             "version": "v3.2.8",

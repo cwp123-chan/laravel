@@ -12,24 +12,28 @@
 */
 Route::middleware('checkNameSpace')->group(function () {
     Route::post('/add','UserController@addUser');
-    Route::post('/edit','UserController@editUser');
+    Route::post('/edit','UserController@addUser');
 });
-Route::get('/','Controller@index');
 
-Route::view('/index','admin.app');
-Route::view('/','admin.reg');
+    Route::get('/','UserController@index')->middleware("adminToken");
+
+//Route::get('/','UserController@index');
+
+
+
+Route::view('/index','admin.app')->middleware("adminToken");
 Route::view('/reg','admin.reg');
-
 Route::view('/404','admin.not');
 Route::view('/login','admin.login');
 
-//
-//Route::post('/add','Requests\\StoreRequest@addUser');
-//Route::post('/edit','Requests\\StoreRequest@editUser');
-Route::delete('/del/{id}','UserController@delUser');
-Route::get('/show/{num}','UserController@showUser');
+Route::delete('/del/{id}','UserController@delUser')->middleware("adminToken");
+Route::get('/show','UserController@showUser')->middleware("adminToken");
+Route::get('/search','UserController@searchUser')->middleware("adminToken");
+
 Route::post('/regadmin','AdminController@storeSecret');
 Route::post('/tologin','AdminController@tologin');
+Route::post('/out','AdminController@out');
+
 
 
 

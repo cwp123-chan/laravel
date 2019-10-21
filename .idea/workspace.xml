@@ -115,13 +115,15 @@
       <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/baijunyao/laravel-print" />
     </include_path>
   </component>
   <component name="ProjectId" id="1SBgYfSwJIkPAtrOBaAmrt2hHek" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -166,6 +168,11 @@
       <workItem from="1571152222886" duration="701000" />
       <workItem from="1571189151751" duration="22634000" />
       <workItem from="1571229653654" duration="11961000" />
+      <workItem from="1571274036968" duration="6820000" />
+      <workItem from="1571292999055" duration="33973000" />
+      <workItem from="1571361361027" duration="29900000" />
+      <workItem from="1571447751478" duration="5171000" />
+      <workItem from="1571620786771" duration="243000" />
     </task>
     <servers />
   </component>
